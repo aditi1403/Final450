@@ -11,7 +11,9 @@ int main()
     int mid=0;
     int n=sizeof(nums) / sizeof(nums[0]);
     int high=n-1;
-        
+    
+    // Dutch national flag algorithm 
+
     while(mid<=high){
         switch(nums[mid]){
             case 0:
@@ -39,3 +41,7 @@ int main()
     }
     return 0;
 }
+
+// Dutch national flag algorithm O(N)
+// sort(nums.begin(),nums.end()); O(NlogN)
+// count sort--count occurence of each number then print theem in asscending order O(2N)
