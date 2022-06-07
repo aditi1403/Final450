@@ -21,9 +21,11 @@ int main()
     int arr[]={1, 3, 5, 8, 9, 2, 6, 7, 6, 8, 9}; 
     int n=11;
 
+    //edge case
     if (n <= 1)
     cout<<"0";
  
+    //edge case
     if (arr[0] == 0)
         cout<<"-1";
      
@@ -48,3 +50,5 @@ int main()
      
     return -1;
 }
+
+// Time Complexity: O(N)
