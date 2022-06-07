@@ -36,12 +36,14 @@ int main()
             }
         }
 
+    // print array
     for(int i = 0; i < n; i++){
         cout<<nums[i]<<" ";
     }
+
     return 0;
 }
 
-// Dutch national flag algorithm O(N)
-// sort(nums.begin(),nums.end()); O(NlogN)
-// count sort--count occurence of each number then print theem in asscending order O(2N)
+// 1. Dutch national flag algorithm O(N)
+// 2. sort(nums.begin(),nums.end()); O(NlogN)
+// 3. count sort--count occurence of each number then print theem in asscending order O(2N)
