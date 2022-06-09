@@ -25,3 +25,6 @@ int main()
     cout<<"Max Profit: "<<maxProf;
     return 0;
 }
+
+// Time Complexity: O(N)
+// Space Coplexity: O(1)

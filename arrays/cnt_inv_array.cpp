@@ -36,3 +36,6 @@ int main()
     cout<<"\nNo. of Inversions: "<<count;
     return 0;
 }
+
+// Time Complexity: O(N)
+// Space Complexity: O(1)
